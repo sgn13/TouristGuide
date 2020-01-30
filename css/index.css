@@ -3,12 +3,12 @@ font-family: Century gothic;}
 
 .container{
   height: 15vh;
-  width: 90%;
+  width: 95%;
   display: flex;
   align-items: center;
-  margin: auto;
-  position: relative;
-}
+  margin:auto ;
+  position: relative}
+
 
 .logo{
 	flex-basis: 20%;
@@ -28,7 +28,7 @@ ul li{
   display: inline-block;
   font-size:14px;
   color: grey;
-   margin: 0 15px;
+   margin: 0 10px;
    text-decoration: none;
    text-transform: uppercase;
    font-weight: bold;
@@ -48,6 +48,10 @@ ul li:hover{
 	background-position: center;
 	display: flex;
 
+}
+.head-pic a:hover{
+	transform:scale(1.1);
+	opacity:1;
 }
 
 /*head destination*/

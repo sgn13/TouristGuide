@@ -1,0 +1,17 @@
+.mid{
+    width:100%;
+    height: 80vh;
+}
+
+.search-container{
+    height: 30px;
+    width: 100%;
+    background-color:blanchedalmond;
+}
+.search-container input{
+    width: 50vh;
+    float:right;
+}
+.search-container button{
+    float:right;
+}
