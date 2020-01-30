@@ -1,0 +1,129 @@
+*{transition:all 0.3s ease-in-out;
+font-family: sans-serif;}
+
+.container{
+  height: 15vh;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  position: relative;
+}
+
+.logo{
+	flex-basis: 20%;
+}
+
+.menu{
+	flex-basis: 80%;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+ul{
+	position: absolute;
+}
+
+ul li{
+  display: inline-block;
+  font-size:14px;
+  color: grey;
+   margin: 0 15px;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+ul li:hover{
+  color:orange;
+  
+}
+/*head*/
+
+.head-pic{
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0.1)), url('../image/wall.jpg');
+	height: 60vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+
+}
+
+/*head destination*/
+.one{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	opacity: 0.7;
+	
+}
+.two{
+	height: 200px;
+	width: 200px;
+	margin-top: 100px;
+	border-radius: 50%;
+	opacity: 0.7;
+	
+}
+.three{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	opacity: 0.7;
+	
+}
+.four{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin-top: 100px;
+	opacity: 0.7;
+	
+}
+.five{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	opacity: 0.7;
+	
+}
+.six{
+	height: 200px;
+	margin-top: 100px;
+	width: 200px;
+	border-radius: 50%;
+	opacity: 0.7;
+	
+}
+@keyframes cssAnimation {
+  to   { visibility: visible; }
+}
+/*search*/
+.search{
+	position: relative;
+	height: 150px;
+}
+.search-box{
+	height: 120px;
+	width: 600px;
+	background-color: #909e84;
+	opacity: 0.8;
+	margin: auto;
+	position: absolute;
+	top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+   
+}
+.search-box input{
+	position: absolute;
+	width: 300px;
+	height: 30px;
+	top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
