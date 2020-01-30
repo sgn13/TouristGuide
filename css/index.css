@@ -1,9 +1,9 @@
 *{transition:all 0.3s ease-in-out;
-font-family: sans-serif;}
+font-family: Century gothic;}
 
 .container{
   height: 15vh;
-  width: 80%;
+  width: 90%;
   display: flex;
   align-items: center;
   margin: auto;
