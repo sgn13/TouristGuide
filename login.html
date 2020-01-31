@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book My Guide</title>
+		<link rel="stylesheet" type="text/css" href="css/all.css">
+
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" href="css/animate.css">
+	
+	
+	<script defer src="js/all.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="logo wow slideInLeft">
+  			<a href="#"><img src="image/bmg.jpg" alt="" width="130"/></a>
+ 		 </div>
+ 		 
+		<nav class="menu wow bounceInUp">
+		  <ul>
+		 <a href="index.html"> <li><span>Home</span></li></a>
+		 <a href="#"> <li>Guides</li></a> 
+		 <a href="#"> <li>Tour and Treks</li></a> 
+		 <a href="#"> <li>Our Services</li></a> 
+		 <a href="#"> <li>Why Us?</li></a> 
+		 <a href="#"> <li>Contact</li></a> 
+		 <a href="login.html"> <li><i class="fas fa-user"></i> Login</li></a> 
+		 <a href="#"> <li>Register ?</li></a> 
+
+		  </ul>
+		 </nav>
+	</div>
+	<hr>
+	
+
+<div class="forms">
+    <ul class="tab-group">
+        <li class="tab active"><a href="#login">Log In</a></li>
+        <li class="tab"><a href="#signupT">Register as a Traveler</a></li>
+        <li class="tab"><a href="#signupG">Register as a Guide</a></li>
+
+    </ul>
+    <form action="#" id="login">
+          <h1>Login</h1>
+          <div class="input-field">
+            <label for="email">Email</label>
+            <input type="email" name="email" required="email" />
+            <label for="password">Password</label> 
+            <input type="password" name="password" required/>
+            <input type="submit" value="Login" class="button"/>
+            <p class="text-p"> <a href="#">Forgot password?</a> </p>
+          </div>
+      </form>
+      <form action="#" id="signupT">
+          <h1>Register as a Tourist</h1>
+          <div class="input-field">
+            <label for="email">Email</label> 
+            <input type="email" name="email" required="email"/>
+            <label for="password">Password</label> 
+            <input type="password" name="password" required/>
+            <label for="password">Confirm Password</label> 
+            <input type="password" name="password" required/>
+            <input type="submit" value="Sign up" class="button" />
+          </div>
+      </form>
+      <form action="#" id="signupG">
+          <h1>Register as a Guide</h1>
+          <div class="input-field">
+            <label for="email">Email</label> 
+            <input type="email" name="email" required="email"/>
+            <label for="password">Password</label> 
+            <input type="password" name="password" required/>
+            <label for="password">Confirm Password</label> 
+            <input type="password" name="password" required/>
+            <input type="submit" value="Sign up" class="button" />
+          </div>
+      </form>
+</div>
+
+
+
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script type="text/javascript">
+	
+$(document).ready(function(){
+	  $('.tab a').on('click', function (e) {
+	  e.preventDefault();
+	  
+	  $(this).parent().addClass('active');
+	  $(this).parent().siblings().removeClass('active');
+	  
+	  var href = $(this).attr('href');
+	  $('.forms > form').hide();
+	  $(href).fadeIn(500);
+	});
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/wow.min.js"></script>
+<script>
+              new WOW().init();
+</script>
+
+</body>
+</html>
