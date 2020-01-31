@@ -1,14 +1,14 @@
 *{transition:all 0.3s ease-in-out;
-font-family: Century gothic;}
+font-family: sans-serif;}
 
 .container{
   height: 15vh;
-  width: 95%;
+  width: 80%;
   display: flex;
   align-items: center;
-  margin:auto ;
-  position: relative}
-
+  margin: auto;
+  position: relative;
+}
 
 .logo{
 	flex-basis: 20%;
@@ -28,10 +28,13 @@ ul li{
   display: inline-block;
   font-size:14px;
   color: grey;
-   margin: 0 10px;
+   margin: 0 15px;
    text-decoration: none;
    text-transform: uppercase;
    font-weight: bold;
+}
+ul span{
+	color: orange;
 }
 
 ul li:hover{
@@ -41,17 +44,13 @@ ul li:hover{
 /*head*/
 
 .head-pic{
-	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0.1)), url('../image/wall.jpg');
+	background-image:  url('../image/wall.jpg');
 	height: 60vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	display: flex;
 
-}
-.head-pic a:hover{
-	transform:scale(1.1);
-	opacity:1;
 }
 
 /*head destination*/
@@ -60,6 +59,7 @@ ul li:hover{
 	width: 200px;
 	border-radius: 50%;
 	opacity: 0.7;
+	flex-basis: 50%;
 	
 }
 .two{
@@ -68,6 +68,7 @@ ul li:hover{
 	margin-top: 100px;
 	border-radius: 50%;
 	opacity: 0.7;
+	flex-basis: 50%;
 	
 }
 .three{
@@ -100,9 +101,12 @@ ul li:hover{
 	opacity: 0.7;
 	
 }
-@keyframes cssAnimation {
-  to   { visibility: visible; }
+
+.head-pic a:hover{
+	transform: scale(1.1);
+	opacity: 1;
 }
+
 /*search*/
 .search{
 	position: relative;
@@ -110,24 +114,40 @@ ul li:hover{
 }
 .search-box{
 	height: 120px;
-	width: 600px;
-	background-color: #909e84;
+	width: 50%;
+	background-color: #72b8ae;
 	opacity: 0.8;
 	margin: auto;
 	position: absolute;
+	display: flex;
 	top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  border-radius: 3% ;
    
 }
 .search-box input{
-	position: absolute;
-	width: 300px;
-	height: 30px;
-	top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+	width: 40%;
+	height: 40px;
+	flex-basis: 40%;
+	text-align: center;
+	margin-top: 30px;
+}
 
+.fa-search{
+flex-basis: 20%;
+width: 100px;
+height: 50px;
+color: black;
+opacity: 0.9;
+margin-top: 30px;
+}
+.search-box p{
+	flex-basis: 40%;
+	margin-top: 40px;
+	margin-left: 30px;
+	font-weight: bold;
+	opacity: 0.9;
+	font-size: 20px;
 }
