@@ -1,43 +1,37 @@
 
-.collapsible {
-  background-color: blanchedalmond;
-  color:black;
-  cursor: pointer;
-  padding: 18px;
-  width: 40%;
-  margin: 30px 150px 10px 30px;
+ .mid p{
   text-align: center;
+   margin:20px 30px 10px 30px;
+  font-size:18px; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.mid  h1{
+ text-align: center;
+   margin:20px 30px 10px 30px;
+  font-size:18px; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.card {
+  margin: 30px 50px 10px 10px;
+  padding: 10px;
+ float: left;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 250px;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card p{
+  height:100px;
   font-size: 15px;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color: white;
+.title {
+color: grey;
+font-size: 15px;
 }
-
-/* Style the collapsible content. Note: hidden by default */
-.content  {
-  padding: 0 18px;
-  width: 30%;
-  margin: 10px 50px 10px 30px;
-  display: none;
-  overflow: hidden;
-  background-color: blanchedalmond;
-}
- .mid p{
-   text-align: center;
-    margin:20px 30px 10px 30px;
-   font-size:18px; 
-   font-family: Georgia, 'Times New Roman', Times, serif;
-
- }
- .mid  h1{
-  text-align: center;
-    margin:20px 30px 10px 30px;
-   font-size:18px; 
-   font-family: Georgia, 'Times New Roman', Times, serif;
-
- }
- .collapsible p{
-     font-size: 15px;
- }
