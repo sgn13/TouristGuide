@@ -17,7 +17,7 @@
 }
 
 .forms form { padding: 30px; }
-#signupT,#signupG { display: none; }
+#signupT { display: none; }
 
 .forms .tab-group {
 	list-style: none;
@@ -50,7 +50,7 @@
 	color: #444;
 	border-top: 3px solid orange;
 }
-.forms input {
+/*.forms input {
 	font-size: 16px;
 	display: block;
 	width: 80%;
@@ -63,7 +63,7 @@
 	-o-transition: all 0.4s ease-in-out;
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
-}
+}*/
 .forms input:focus {
 	outline: 0;
 	border-color: #2e5ed7;
