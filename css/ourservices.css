@@ -1,0 +1,42 @@
+
+.collapsible {
+  background-color: blanchedalmond;
+  color:black;
+  cursor: pointer;
+  padding: 18px;
+  width: 30%;
+  margin: 10px 2000px 10px 30px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: white;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content  {
+  padding: 0 18px;
+  width: 30%;
+  margin: 10px 50px 10px 30px;
+  display: none;
+  overflow: hidden;
+  background-color: blanchedalmond;
+}
+ .mid p{
+    margin:20px 30px 10px 30px;
+   font-size:20px; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+ .mid  h1{
+    margin:20px 30px 10px 30px;
+   font-size:20px; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-decoration: underline;
+
+ }
+ .collapsible p{
+     font-size: 15px;
+ }
