@@ -13,7 +13,6 @@ font-family: Century gothic;}
 .logo{
 	flex-basis: 20%;
 }
-
 .menu{
 	flex-basis: 80%;
 	display: flex;
