@@ -21,9 +21,10 @@
 .follow p{
 	font-size: 30px;
 	border: orangered;
-	font-family: cursive;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .follow{
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	margin-top: 70px;
 	margin-left: 500px;
 }
@@ -57,3 +58,6 @@
 	background:  #bc2a8d;
 	color: white;
   }
+  .fa-google {
+	background: #dd4b39;
+	color: white;
